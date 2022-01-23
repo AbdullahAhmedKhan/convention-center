@@ -4,3 +4,29 @@
 *{
     font-family: 'Nunito', sans-serif;
 }
+.btn-pink{
+    /* background-color: #f496d229;
+    color: #3F87F5; */
+    background-color: #0242a2a5;
+    color: #fff;
+    font-weight: 900;
+    width: 97%;
+    border-radius: 50px;
+}
+.btn-white{
+    background-color: #fff;
+    color: #3F87F5;
+    font-weight: 900;
+    width: 97%;
+    border-radius: 50px;
+}
+.hot-card{
+    background-color: #3F87F5;
+    color: #fff;
+    border-radius: 20px;
+    /* transform: scaleY(1.1); */
+
+}
+.card-body>span{
+    margin-bottom: 15px;
+}
