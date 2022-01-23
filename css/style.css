@@ -24,9 +24,9 @@
     background-color: #3F87F5;
     color: #fff;
     border-radius: 20px;
-    /* transform: scaleY(1.1); */
+    box-shadow: rgba(24, 41, 172, 0.45) 0px 55px 40px -20px;
 
 }
-.card-body>span{
-    margin-bottom: 15px;
+.card-body img{
+    width: 100px;
 }
