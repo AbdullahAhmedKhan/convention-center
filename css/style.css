@@ -3,6 +3,7 @@
 
 *{
     font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
 }
 .btn-pink{
     /* background-color: #f496d229;
@@ -29,4 +30,8 @@
 }
 .card-body img{
     width: 100px;
+}
+.package-card{
+    min-width: 282px;
+    min-height: 480px;
 }
