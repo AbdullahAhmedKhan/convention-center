@@ -5,13 +5,11 @@
     font-family: 'Nunito', sans-serif;
     box-sizing: border-box;
 }
-.btn-pink{
-    /* background-color: #f496d229;
-    color: #3F87F5; */
-    background-color: #0242a2a5;
+.btn-blue{
+    background-color: #0d71dcbf;
     color: #fff;
     font-weight: 900;
-    width: 97%;
+    width: 70%;
     border-radius: 50px;
 }
 .btn-white{
@@ -26,14 +24,9 @@
     color: #fff;
     border-radius: 20px;
     box-shadow: rgba(24, 41, 172, 0.45) 0px 55px 40px -20px;
-
 }
 .card-body img{
     width: 100px;
-}
-.package-card{
-    min-width: 282px;
-    min-height: 480px;
 }
 footer{
     min-height: 280px;
@@ -42,4 +35,19 @@ footer img{
     width: 134px;
     height: 40px;
     margin-bottom: 8px;
+}
+
+@media(max-width:688px){
+    .caption{
+        padding-bottom: 2px;
+    }
+    .caption h1{
+        font-size: 18px;
+    }
+    .caption p{
+        font-size: 8px;
+    }
+    .caption a{
+        padding: 2px 0px;
+    }
 }
